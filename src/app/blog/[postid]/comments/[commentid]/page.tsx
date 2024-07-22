@@ -10,7 +10,7 @@ export default function page({
 }) {
   return (
     <div>
-      Comment {params.commentid} for blog post {params.postid}
+      Comment {params.commentid} for blog post апрарарарпа {params.postid}
     </div>
   );
 }
