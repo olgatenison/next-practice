@@ -15,5 +15,5 @@ export const generateMetadata = ({ params }: Props): Metadata => {
 
 export default function Page({ params }: Props) {
   // Используйте Props здесь
-  return <div>details page прапапапвпавоеwith the id: {params.postid}</div>;
+  return <div>details page with the id: {params.postid}</div>;
 }

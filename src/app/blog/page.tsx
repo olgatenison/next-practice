@@ -1,16 +1,36 @@
 import React from "react";
+import Link from "next/link";
 
 export default function page() {
   return (
     <div>
-      <h3>post 1</h3>
-      <h3>post 2</h3>
-      <h3>post 3</h3>
-      <h3>post 4</h3>
-      <h3>post 5</h3>
-      <h3>post 6</h3>
-      <h3>post 7</h3>
-      <h3>post 8</h3>
+      <Link href="/">Home page</Link>
+      <h3>
+        <Link href="/blog/1">post 1</Link>
+      </h3>
+      <h3>
+        <Link href="/blog/2" replace>
+          post 2
+        </Link>
+      </h3>
+      <h3>
+        <Link href="/blog/3">post 3</Link>
+      </h3>
+      <h3>
+        <Link href="/blog/4">post 4</Link>
+      </h3>
+      <h3>
+        <Link href="/blog/5">post 5</Link>
+      </h3>
+      <h3>
+        <Link href="/blog/6">post 6</Link>
+      </h3>
+      <h3>
+        <Link href="/blog/7">post 7</Link>
+      </h3>
+      <h3>
+        <Link href="/blog/8">post 8</Link>
+      </h3>
     </div>
   );
 }
