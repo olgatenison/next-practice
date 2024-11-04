@@ -21,6 +21,10 @@ export default function RootLayout({
   const [input, setInput] = useState("");
   return (
     <>
+      <div>
+        <input value={input} onChange={(e) => setInput(e.target.value)} />
+      </div>
+
       {children}
       {navlinks.map((link) => {
         const isActive = pathname.startsWith(link.href);
