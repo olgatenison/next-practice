@@ -41,7 +41,7 @@ export default function Newsletter() {
             </button>
           </div>
           <p className="mt-4 text-sm/6 text-gray-900">
-            We care about your data. Read our{" "}
+            Read our{" "}
             <a
               href="#"
               className="font-semibold text-indigo-600 hover:text-indigo-500"
