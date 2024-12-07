@@ -89,9 +89,9 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900">
+    <footer className="bg-black">
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+        <div className=" xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             {/* <img
               alt="Company name"
@@ -100,7 +100,8 @@ export default function Footer() {
             /> */}
             <p className="text-balance text-sm/6 text-gray-300">
               Making the world a better place through constructing elegant
-              hierarchies.
+              hierarchies.Making the world a better place through constructing
+              elegant hierarchies.
             </p>
             <div className="flex gap-x-6">
               {navigation.social.map((item) => (
@@ -126,7 +127,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm/6 text-gray-400 hover:text-white"
+                        className="text-sm/6 text-gray-400 hover:text-white "
                       >
                         {item.name}
                       </a>
